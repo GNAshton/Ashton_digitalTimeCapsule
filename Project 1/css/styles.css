@@ -1,0 +1,119 @@
+body, html {
+    margin:0px;
+}
+
+hr {
+    border: 2px solid;
+    border-color:#ec4702; 
+}
+
+.maincontent {
+    padding-left: 5%;
+    padding-right: 5%
+}
+
+/* General Type */
+
+a:any-link {
+    text-decoration: none;
+    color: #ec4702;
+}
+
+h1 {
+    font-family: bebas-neue-pro, sans-serif;
+    font-weight: 600;
+    font-style: normal; 
+    font-size: 80px;
+}
+
+h2 {
+    font-family: nunito-sans, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    color: #ec4702;
+}
+
+p {
+    font-family: nunito-sans, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 16px;
+    text-align: justify;
+    max-width:80%;
+}
+
+p > :any-link {
+    font-family: nunito-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Navbar */
+
+nav {
+    display: flex;
+    background-color: #e9e9d6;
+    padding: 20px;
+    justify-content: center;
+}
+
+.navelement {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+a:hover {
+    color: gray;
+}
+
+nav > a:any-link {
+    font-family: nunito-sans, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 16px;
+}
+
+/* Images */
+
+.mediaflex {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.mediaimg {
+    height:200px;
+    margin-right: 20px;
+    border: 5px solid;
+    border-color:#ec4702;
+}
+
+.mediaimg:hover {
+    border: 5px solid;
+    border-color: darkgray;
+    transition: height 200ms;
+}
+
+.logo {
+    width: 100px;
+    height:100px;
+    padding: 25px 20px 0px 20px;
+}
+
+.largerimg {
+    width: 500px;
+}
+
+/* Sections */
+
+.mediasection {
+    background-color: #e9e9d6;
+    padding: 5px 0px 30px 20px;
+    margin: 30px 0px 50px 0px;
+    max-width:fit-content;
+}
+
+.textflex {
+    max-width: 1100px;
+    margin-right: 20px;
+}
