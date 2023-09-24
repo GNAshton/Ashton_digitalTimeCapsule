@@ -1,5 +1,7 @@
-body, html {
+body {
     margin:0px;
+    padding:0px;
+    background-color: #dbd7ba;
 }
 
 hr {
@@ -9,7 +11,8 @@ hr {
 
 .maincontent {
     padding-left: 5%;
-    padding-right: 5%
+    padding-right: 5%;
+    padding-top: 2%;
 }
 
 /* General Type */
@@ -17,6 +20,10 @@ hr {
 a:any-link {
     text-decoration: none;
     color: #ec4702;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 h1 {
@@ -36,31 +43,51 @@ h2 {
 
 p {
     font-family: nunito-sans, sans-serif;
-    font-weight: 200;
+    font-weight: 300;
     font-style: normal;
     font-size: 16px;
+    max-width: 750px;
     text-align: justify;
-    max-width:80%;
 }
 
 p > :any-link {
     font-family: nunito-sans, sans-serif;
-    font-weight: 400;
+    font-weight: 700;
     font-style: normal;
 }
 
-/* Navbar */
+/* Navbar and Footer */
 
 nav {
     display: flex;
     background-color: #e9e9d6;
-    padding: 20px;
-    justify-content: center;
+    padding: 20px 0px 20px 60px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    border-bottom: 3px solid #ec4702;
 }
 
 .navelement {
     padding-left: 30px;
     padding-right: 30px;
+    background-color: #e9e9d6;
+}
+
+.footerflex {
+    display: flex;
+    background-color: #e9e9d6;
+    margin-top: 20px;
+    padding: 20px 0px 20px 85px;
+}
+
+.footerelement {
+    padding: 0px 5px 0px 10px;
+    align-content: center;
+}
+
+.footerimg:hover {
+    opacity:70%;
 }
 
 a:hover {
@@ -104,16 +131,37 @@ nav > a:any-link {
     width: 500px;
 }
 
+.selfie {
+    height:400px;
+    align-self:baseline;
+    border: 5px solid #ec4702;
+}
+
+.footerimg {
+    height: 30px;
+    align-content:center;
+    padding-top: 12px;
+}
+
 /* Sections */
 
 .mediasection {
     background-color: #e9e9d6;
     padding: 5px 0px 30px 20px;
     margin: 30px 0px 50px 0px;
-    max-width:fit-content;
+    max-width:80%;
 }
 
 .textflex {
-    max-width: 1100px;
+    max-width: 80%;
     margin-right: 20px;
+    background-color: #e9e9d6;
+}
+
+.intro {
+    display: flex;
+    max-width: 80%;
+    background-color: #e9e9d6;
+    padding: 5px 0px 0px 20px;
+    margin-bottom: 100px;
 }
