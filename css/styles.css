@@ -79,6 +79,10 @@ nav {
     background-color: #e9e9d6;
     margin-top: 20px;
     padding: 20px 0px 20px 85px;
+    position: fixed;
+    bottom: 0px;
+    width:100%;
+    border-top: 3px solid #ec4702;
 }
 
 .footerelement {
@@ -143,12 +147,27 @@ nav > a:any-link {
     padding-top: 12px;
 }
 
+.animation {
+    display:flex;
+    position:fixed;
+    top:7.2%;
+    right: 5%;
+    z-index: 0;
+}
+
 /* Sections */
 
 .mediasection {
     background-color: #e9e9d6;
     padding: 5px 0px 30px 20px;
     margin: 30px 0px 50px 0px;
+    max-width:80%;
+}
+
+.mediasectionlast {
+    background-color: #e9e9d6;
+    padding: 5px 0px 30px 20px;
+    margin: 30px 0px 150px 0px;
     max-width:80%;
 }
 
